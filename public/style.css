@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.task-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #0056b3;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filters button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.filters button:hover:not(.active) {
+    background-color: #eee;
+}
+
+ul#task-list {
+    list-style: none;
+    padding: 0;
+    min-height: 50px;
+}
+
+ul#task-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: grab;
+    user-select: none;
+}
+
+ul#task-list li.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-header h3 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.task-buttons button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    user-select: none;
+}
+
+.complete-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+li.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+    color: #155724;
+}
