@@ -136,3 +136,8 @@ li.completed {
     text-decoration: line-through;
     color: #155724;
 }
+
+.task-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
