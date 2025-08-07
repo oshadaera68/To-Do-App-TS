@@ -1,5 +1,5 @@
- # To-Do App (TypeScript + HTML + CSS)
- A simple and elegant To-Do application built with TypeScript, HTML, and CSS. This app allows users to create, view, complete, and delete tasks with a clean user interface and responsive design.
+# To-Do App (TypeScript + HTML + CSS)
+A simple and elegant To-Do application built with TypeScript, HTML, and CSS. This app allows users to create, view, complete, and delete tasks with a clean user interface and responsive design.
 
 ## Features
 * ✅ Add new tasks with title and description
@@ -46,5 +46,5 @@ Just open `index.html` in your browser to run the app.
 ## Screenshots
 <img width="706" height="472" alt="image" src="https://github.com/user-attachments/assets/34734d18-d06a-4a7b-8cd2-8169ffeb9516" />
 
-## Help Desk
+## Q&A
 If you want to ask something about the code, please don't hesitate and contact me: `+94 767627455` call or messaging to WhatsApp or `oshadaeranga919@gmail.com` send your email with your problem.
